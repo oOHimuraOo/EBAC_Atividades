@@ -46,6 +46,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
         - futebol-americano.jpg
         - futebol.jpg
         - petroleo.jpg
+        - aerha-sedan-jc-1.jpg
+        - batman_logo.jpg
+        - Factorio.jpg
+        - inteligencia artificial.jpg
+        - Mandolorian.jpg
+        - miley-cyrus-foto.jpg
+        - processador-intel.jpg
+        - Quantum-computer.jpg
 ### removed
 - new-file.txt
 - teste.txt
