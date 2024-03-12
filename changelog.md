@@ -31,10 +31,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
         - video_module 3.mp4
 
 ## [0.0.4] - 2024-03-12
-### Changed
+### Modified
 - folder/HTML
     - exercicio.html -> line 27 input type
-    - changelog.md
+- changelog.md
 ### Added
 - folder/CSS
     - index.html
@@ -57,3 +57,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### removed
 - new-file.txt
 - teste.txt
+
+## [0.0.5] - 2024-03-12
+### Modified
+- changelog
+### Added
+- folder/Projeto_1_GameShop
+    - folder/Media
+        - folder/Images
+            - facebook.png
+            - instagram.png
+            - loja.png
+            - nintendo.png
+            - playstation.png
+            - xbox.png
+            - youtube.png
+        - folder/Sounds
+        - folder/Videos
+    - index.html
+    - main.css
