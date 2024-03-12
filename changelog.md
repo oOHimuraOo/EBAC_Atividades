@@ -25,6 +25,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - midia.html
     - tabelas.html
     - folder/Media
-        imagem_module 3.jpg
-        musica_module 3.mp3
-        video_module 3.mp4
+        - imagem_module 3.jpg
+        - musica_module 3.mp3
+        - video_module 3.mp4
