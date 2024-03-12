@@ -80,3 +80,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Arquivo_Remoto.txt
 - conflito.txt
 - github.txt
+### Merged
+- branch Exercicio-GameShop merged to main
