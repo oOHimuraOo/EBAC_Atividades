@@ -9,24 +9,36 @@ form.addEventListener('submit', function(e) {
     var mensagemResultado
     
     e.preventDefault()
-    
-    var resultadoComparacao = comparadorValores(campoA.value, campoB.value)
-    console.log(resultadoComparacao)
+
+    var valor_a = parseInt(campoA.value) 
+    var valor_b = parseInt(campoB.value)
+
+    var resultadoComparacao = comparadorValores(valor_a, valor_b)
     
     if (resultadoComparacao === 2) {
-        mensagemResultado = `O valor A informado foi: <b>${campoA.value}</b><br/>O valor B informado foi: <b>${campoB.value}</b><br/><br/>O valor <b>${campoA.value}</b> é maior que o <b>${campoB.value}</b>`
+        mensagemResultado = `O valor A informado foi: <b>${valor_a}</b><br/>O valor B informado foi: <b>${valor_b}</b><br/><br/>O valor <b>${valor_a}</b> é maior que o <b>${valor_b}</b>.<br/><br/> Os valores informados no Campo A e no Campo B estão invalidos.`
+        resultadoTexto.classList.remove('sucesso')
+        resultadoTexto.classList.add('fracasso')
     }
     else if (resultadoComparacao === -1){
-        mensagemResultado = `O valor A informado foi: <b>${campoA.value}</b><br/>O valor B informado foi: <b>${campoB.value}</b><br/><br/>O valor <b>${campoB.value}</b> é maior que o <b>${campoA.value}</b>`
+        mensagemResultado = `O valor A informado foi: <b>${valor_a}</b><br/>O valor B informado foi: <b>${valor_b}</b><br/><br/>O valor <b>${valor_b}</b> é maior que o <b>${valor_a}</b>.<br/><br/> Os valores informados no Campo A e no Campo B estão validos.`
+        resultadoTexto.classList.remove('fracasso')
+        resultadoTexto.classList.add('sucesso')
     }
     else if (resultadoComparacao === 1){
-        mensagemResultado = `O valor A informado foi: <b>${campoA.value}</b><br/>O valor B informado foi: <b>${campoB.value}</b><br/><br/>O valor <b>${campoB.value}</b> é maior que o <b>${campoA.value}</b>`
+        mensagemResultado = `O valor A informado foi: <b>${valor_a}</b><br/>O valor B informado foi: <b>${valor_b}</b><br/><br/>O valor <b>${valor_b}</b> é maior que o <b>${valor_a}</b>.<br/><br/> Os valores informados no Campo A e no Campo B estão invalidos.`
+        resultadoTexto.classList.remove('sucesso')
+        resultadoTexto.classList.add('fracasso')
     }
     else if (resultadoComparacao === -2){
-        mensagemResultado = `O valor A informado foi: <b>${campoA.value}</b><br/>O valor B informado foi: <b>${campoB.value}</b><br/><br/>O valor <b>${campoA.value}</b> é maior que o <b>${campoB.value}</b>`
+        mensagemResultado = `O valor A informado foi: <b>${valor_a}</b><br/>O valor B informado foi: <b>${valor_b}</b><br/><br/>O valor <b>${valor_a}</b> é maior que o <b>${valor_b}</b>.<br/><br/> Os valores informados no Campo A e no Campo B estão validos.`
+        resultadoTexto.classList.remove('fracasso')
+        resultadoTexto.classList.add('sucesso')
     }
     else {
-        mensagemResultado = `O valor A informado foi: <b>${campoA.value}</b><br/>O valor B informado foi: <b>${campoB.value}</b><br/><br/>Os valores são iguais`
+        mensagemResultado = `O valor A informado foi: <b>${valor_a}</b><br/>O valor B informado foi: <b>${valor_b}</b><br/><br/>Os valores são iguais.<br/><br/> Os valores informados no Campo A e no Campo B estão invalidos.`
+        resultadoTexto.classList.remove('sucesso')
+        resultadoTexto.classList.add('fracasso')
     }
         
     resultadoTexto.innerHTML = mensagemResultado
@@ -37,13 +49,13 @@ function comparadorValores(val1,val2){
     if (val1 > val2 && val1 >= 0) {
         return 2
     }
-    else if (val1 > val2 && val1 <= 0){
+    else if (val1 > val2){
         return 1
     }
     else if (val1 < val2 && val2 >= 0){
         return -1
     }
-    else if (val1 < val2 && val2 <= 0){
+    else if (val1 < val2){
         return -2
     }
     else {

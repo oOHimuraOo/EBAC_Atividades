@@ -96,3 +96,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - index.html -> modificação de id do campo para se adequar ao nome solicitado na atividade.
 - main.js -> correção do nome das constantes para se adequar ao nome solicitado na atividade.
 - changelog.md
+
+## [0.0.7] - 2024-03-18
+### Modified
+- index.html
+- main.js -> correção de bug devido ao fato de função principal estar com redundancia e as variaveis obtidas estarem vindo como string e não como interger.
+- main.css
+- changelog.md
+

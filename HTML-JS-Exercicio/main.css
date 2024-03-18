@@ -45,8 +45,14 @@ form button:hover {
     margin: auto;
 }
 
-.resultado p{
+p.sucesso{
     background-color: lightgreen;
+    color: black;
+    padding: 16px;
+}
+
+p.fracasso{
+    background-color: lightcoral;
     color: black;
     padding: 16px;
 }
