@@ -76,3 +76,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
         - folder/Videos
     - index.html
     - main.css
+
+## [0.0.5] - 2024-03-18
+### Modified
+- changelog
+
+### Added
+- folder/HTML-JS
+    - index.html
+    - main.css
+    - main.js
+- folder/HTML-JS-Exercicio
+    - index.html
+    - main.css
+    - main.js
