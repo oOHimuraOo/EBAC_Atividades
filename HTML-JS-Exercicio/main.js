@@ -1,5 +1,5 @@
-const valorA = document.getElementById('valorA')
-const valorB = document.getElementById('valorB')
+const campoA = document.getElementById('campoA')
+const campoB = document.getElementById('campoB')
 const form = document.getElementById('form')
 const resultadoTexto = document.getElementById('resultadoTexto')
 
@@ -10,23 +10,23 @@ form.addEventListener('submit', function(e) {
     
     e.preventDefault()
     
-    var resultadoComparacao = comparadorValores(valorA.value, valorB.value)
+    var resultadoComparacao = comparadorValores(campoA.value, campoB.value)
     console.log(resultadoComparacao)
     
     if (resultadoComparacao === 2) {
-        mensagemResultado = `O valor A informado foi: <b>${valorA.value}</b><br/>O valor B informado foi: <b>${valorB.value}</b><br/><br/>O valor <b>${valorA.value}</b> é maior que o <b>${valorB.value}</b>`
+        mensagemResultado = `O valor A informado foi: <b>${campoA.value}</b><br/>O valor B informado foi: <b>${campoB.value}</b><br/><br/>O valor <b>${campoA.value}</b> é maior que o <b>${campoB.value}</b>`
     }
     else if (resultadoComparacao === -1){
-        mensagemResultado = `O valor A informado foi: <b>${valorA.value}</b><br/>O valor B informado foi: <b>${valorB.value}</b><br/><br/>O valor <b>${valorB.value}</b> é maior que o <b>${valorA.value}</b>`
+        mensagemResultado = `O valor A informado foi: <b>${campoA.value}</b><br/>O valor B informado foi: <b>${campoB.value}</b><br/><br/>O valor <b>${campoB.value}</b> é maior que o <b>${campoA.value}</b>`
     }
     else if (resultadoComparacao === 1){
-        mensagemResultado = `O valor A informado foi: <b>${valorA.value}</b><br/>O valor B informado foi: <b>${valorB.value}</b><br/><br/>O valor <b>${valorB.value}</b> é maior que o <b>${valorA.value}</b>`
+        mensagemResultado = `O valor A informado foi: <b>${campoA.value}</b><br/>O valor B informado foi: <b>${campoB.value}</b><br/><br/>O valor <b>${campoB.value}</b> é maior que o <b>${campoA.value}</b>`
     }
     else if (resultadoComparacao === -2){
-        mensagemResultado = `O valor A informado foi: <b>${valorA.value}</b><br/>O valor B informado foi: <b>${valorB.value}</b><br/><br/>O valor <b>${valorA.value}</b> é maior que o <b>${valorB.value}</b>`
+        mensagemResultado = `O valor A informado foi: <b>${campoA.value}</b><br/>O valor B informado foi: <b>${campoB.value}</b><br/><br/>O valor <b>${campoA.value}</b> é maior que o <b>${campoB.value}</b>`
     }
     else {
-        mensagemResultado = `O valor A informado foi: <b>${valorA.value}</b><br/>O valor B informado foi: <b>${valorB.value}</b><br/><br/>Os valores são iguais`
+        mensagemResultado = `O valor A informado foi: <b>${campoA.value}</b><br/>O valor B informado foi: <b>${campoB.value}</b><br/><br/>Os valores são iguais`
     }
         
     resultadoTexto.innerHTML = mensagemResultado

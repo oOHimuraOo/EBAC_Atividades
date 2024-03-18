@@ -79,7 +79,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.0.5] - 2024-03-18
 ### Modified
-- changelog
+- changelog.md
 
 ### Added
 - folder/HTML-JS
@@ -90,3 +90,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - index.html
     - main.css
     - main.js
+
+## [0.0.6] - 2024-03-18
+### Modified
+- index.html -> modificação de id do campo para se adequar ao nome solicitado na atividade.
+- main.js -> correção do nome das constantes para se adequar ao nome solicitado na atividade.
+- changelog.md
