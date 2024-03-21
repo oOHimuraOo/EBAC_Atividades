@@ -109,3 +109,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - index.html
 - main.js -> otimização do codigo. Retirando redundancias e simplificando operações.
 - changelog.md
+
+## [0.0.9] - 2024-03-20
+### Added
+- folder/projeto_2_calculador de medias
+    - folder/images
+        - aprovado.png
+        - logo.png
+        - reprovado.png
+    - index.html
+    - main.css
+    - main.js
+### modified
+- changelog.md
