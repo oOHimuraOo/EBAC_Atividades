@@ -82,3 +82,49 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - github.txt
 ### Merged
 - branch Exercicio-GameShop merged to main
+
+## [0.0.5] - 2024-03-18
+### Modified
+- changelog.md
+
+### Added
+- folder/HTML-JS
+    - index.html
+    - main.css
+    - main.js
+- folder/HTML-JS-Exercicio
+    - index.html
+    - main.css
+    - main.js
+
+## [0.0.6] - 2024-03-18
+### Modified
+- index.html -> modificação de id do campo para se adequar ao nome solicitado na atividade.
+- main.js -> correção do nome das constantes para se adequar ao nome solicitado na atividade.
+- changelog.md
+
+## [0.0.7] - 2024-03-18
+### Modified
+- index.html
+- main.js -> correção de bug devido ao fato de função principal estar com redundancia e as variaveis obtidas estarem vindo como string e não como interger.
+- main.css
+- changelog.md
+
+## [0.0.8] - 2024-03-18
+### Modified
+- index.html
+- main.js -> otimização do codigo. Retirando redundancias e simplificando operações.
+- changelog.md
+
+## [0.0.9] - 2024-03-20
+### Added
+- folder/projeto_2_calculador de medias
+    - folder/images
+        - aprovado.png
+        - logo.png
+        - reprovado.png
+    - index.html
+    - main.css
+    - main.js
+### modified
+- changelog.md
