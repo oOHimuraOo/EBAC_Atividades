@@ -76,6 +76,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
         - folder/Videos
     - index.html
     - main.css
+### Removed
+- Arquivo_Remoto.txt
+- conflito.txt
+- github.txt
+### Merged
+- branch Exercicio-GameShop merged to main
 
 ## [0.0.5] - 2024-03-18
 ### Modified
