@@ -126,5 +126,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - index.html
     - main.css
     - main.js
-### modified
+### Modified
+- changelog.md
+
+## [0.1.0] - 2024-03-20
+### Added
+- folder/JQery
+    - folder/images
+        - foto1.jpg
+        - foto2.jpg
+        - foto3.jpg
+        - foto4.jpg
+        - foto5.jpg
+    - index.html
+    - main.js
+    - style.css
+- folder/exercício_jquery
+    - folder/images
+    - index.html
+    - main.js
+    - style.css
+### Modified
 - changelog.md
