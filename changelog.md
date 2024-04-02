@@ -126,5 +126,94 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - index.html
     - main.css
     - main.js
-### modified
+### Modified
 - changelog.md
+
+## [0.1.0] - 2024-03-20
+### Added
+- folder/JQery
+    - folder/images
+        - foto1.jpg
+        - foto2.jpg
+        - foto3.jpg
+        - foto4.jpg
+        - foto5.jpg
+    - index.html
+    - main.js
+    - style.css
+- folder/exercício_jquery
+    - folder/images
+    - index.html
+    - main.js
+    - style.css
+### Modified
+- changelog.md
+
+## [0.1.1] - 25/03/2024
+### Added
+- folder/JQuery-Plugins
+    - folder/icones
+        - facebook.png
+        - instagram.png
+        - youtube.png
+    - folder/images
+        - carro-bmw.png
+        - fusca.png
+        - loja.jpg
+        - moto-bmw.png
+        - slide1.png
+        - slide2.png
+        - slide3.png
+    - folder/JavaScript
+        - jquery.mask.min.js
+        - jquery.validate.min.js
+        - main.js
+        - messages_pt_BR.min.js
+    - index.html
+    - style.css
+### Modified
+- changelog.md
+
+## [0.1.2] - 26/03/2024
+### Added
+- folder/JQuery-Plugins-Exercicio
+    - folder/CSS
+        - main.css
+    - folder/HTML
+        - desafio.html
+    - folder/JavaScript
+        - desafio.js
+        - jquery.mask.min.js
+        - jquery.validate.min.js
+        - main.js
+        - messages_pt_BR.js
+    - index.html
+### Modified
+- changelog.md
+- JQuery-Plugins/JavaScript/main.js
+- Jquery-Plugins/index.html
+- Jquery-Plugins/style.css
+
+## [0.1.3] - 27/03/2024
+### Modified
+- changelog.md
+- JQuery-Plugins-Exercicio/JavaScript/main.js
+- JQuery-Plugins-Exercicio/JavaScript/desafio.js
+- JQuery-Plugins-Exercicio/index.html
+- Jquery-Plugins-Exercicio/HTML/Desafio.html
+- JQuery-Plugins-Exercicio/CSS/main.css
+
+## [0.1.4] - 28/03/2024
+- changelog.md
+- JQuery-Plugins-Exercicio/JavaScript/main.js
+- JQuery-Plugins-Exercicio/JavaScript/desafio.js
+- JQuery-Plugins-Exercicio/index.html
+- Jquery-Plugins-Exercicio/HTML/Desafio.html
+
+## [0.1.5] - 02/04/2024
+### Modified
+- changelog.md
+- JQuery-Plugins-Exercicio/JavaScript/main.js
+- JQuery-Plugins-Exercicio/JavaScript/desafio.js
+- Jquery-Plugins-Exercicio/HTML/Desafio.html
+
