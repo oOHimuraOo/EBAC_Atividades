@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="./JavaScript/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="./JavaScript/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="./JavaScript/assets/owl.theme.green.min.css">
-    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/main.css" id="estilo-principal">
+    <link rel="stylesheet" href="./CSS/estilo_escuro.css" id="estilo-escuro">
     <link rel="icon" href="https://via.placeholder.com/5x5" type="icon">
-    
+    <link rel="stylesheet" href="./HTML/sobre.html">
     <title>Loja Lorem</title>
 </head>
 <body>
@@ -150,19 +151,19 @@
                 <nav>
                     <ul>
                         <li>
-                            <a href="#empresas">Para empresas</a>
+                            <a href="#home" class="home">Inicio</a>
+                        </li>
+                        <li id="empresas">
+                            <a href="#empresas" >Para empresas</a>
                         </li>
                         <li>
-                            <a href="#sobre">Quem somos</a>
-                        </li>
-                        <li>
-                            <a href="#entrega">entrega rapida</a>
+                            <a href="#sobre" class="sobre">Quem somos</a>
                         </li>
                         <li>
                             <a href="#serviços">serviços</a>
                         </li>
-                        <li>
-                            <a href="#lojas">nossas lojas</a>
+                        <li id="lojas">
+                            <a href="#lojas" >nossas lojas</a>
                         </li>
                         <li>
                             <a href="#dia">oferta do dia</a>
@@ -261,7 +262,7 @@
             </section>
         </div>
         <section>
-            <div class="botaoFlutuante">
+            <div class="botaoFlutuante escondedorDeBotaoFlutuante">
                 <button type="button">/\</button>
             </div>
         </section>
@@ -275,9 +276,9 @@
                             <h4>institucional</h4>
                             <ul>
                                 <li>
-                                    <a href="#">
+                                    <a href="#sobre" class="sobre">
                                         <h5>
-                                            quem somos?
+                                            quem somos
                                         </h5>
                                     </a>
                                 </li>
@@ -377,7 +378,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li>
+                        <li  id="pagamento">
                             <h4>Pagamento</h4>
                             <ul id="metodosPagamento">
                                 <li>
@@ -461,15 +462,15 @@
                         <li>
                             <ul>
                                 <li>
-                                    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                                    <h2 id="tituloDireitos">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h2>
                                 </li>
                                 <li>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus laboriosam reprehenderit ex modi nemo vel consequatur ad deleniti incidunt, fuga nihil earum at reiciendis inventore placeat perspiciatis voluptatem iure mollitia!</p>
+                                    <p id="direitos">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus laboriosam reprehenderit ex modi nemo vel consequatur ad deleniti incidunt, fuga nihil earum at reiciendis inventore placeat perspiciatis voluptatem iure mollitia!</p>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <h2>Certificado de segurança</h2>
+                            <h2 id="tituloCertificado">Certificado de segurança</h2>
                             <img src="https://via.placeholder.com/150x150" alt="placeholder">
                         </li>
                     </ul>

@@ -20,7 +20,7 @@
 }
 
 header {
-    background-color: #2f7fe0;
+    background-color: #1b2036;
     position: absolute;
     top: 0;
     z-index: 100;
@@ -30,14 +30,14 @@ header {
 main {
     position: relative;
     top: 140px;
-    background-color: #f7f3f8;
+    background-color: #37406d;
     min-height: 100vh;
     padding-bottom: 100px;
 }
 
 footer {
     position: relative;
-    background-color: #2f7fe0;
+    background-color: #1b2036;
     top: 100px;
 }
 
@@ -63,6 +63,7 @@ h1 {
     text-align: center;
     min-width: 230px;
     max-width: 230px;
+    color: #817f97;
 }
 
 .cabecalho-superior ul {
@@ -79,11 +80,11 @@ h1 {
 }
 
 .bordaAtiva {
-    background-color: #00caf8;
+    background-color: #c8d7e8;
 }
 
 .cabecalho-superior li:hover {
-    border-top: 2px solid #00caf8;
+    border-top: 2px solid #c8d7e8;
 }
 
 .cabecalho-superior .excecao:hover {
@@ -108,7 +109,7 @@ h1 {
     font-size: 16px;
     text-wrap: wrap;
     margin-left: 8px;
-    color: #d9ffff;
+    color: #96a4e2;
 }
 
 .cabecalho-superior .excecao, .menhuHamburguer .excecao {
@@ -125,11 +126,11 @@ h1 {
 }
 
 .botao-carrinho > button {
-    background-color: #0c2061;
+    background-color: #3f5fa2;
     border: none;
     padding: 8px 16px;
     font-size: 16px;
-    color: #d9ffff;
+    color: #96a4e2;
     cursor: pointer;
 }
 
@@ -148,11 +149,11 @@ h1 {
 }
 
 .botao-menu button {
-    background-color: #0c2061;
+    background-color: #3f5fa2;
     border: none;
     padding: 8px 16px;
     font-size: 16px;
-    color: #d9ffff;
+    color: #96a4e2;
     width: 100%;
     height: 100%;
     cursor: pointer;
@@ -220,7 +221,7 @@ h1 {
 }
 
 .menuSecundario a h3 {
-    color: #000037;
+    color: #0e101b;
     font-weight: bold;
 }
 
@@ -233,7 +234,7 @@ h1 {
 }
 
 .menuSecundario li ul li a {
-    color: #00caf8;
+    color: #c8d7e8;
 }
 
 .cabecalho-inferior form {
@@ -252,11 +253,11 @@ h1 {
 }
 
 .cabecalho-inferior form button {
-    background-color: #0c2061;
+    background-color: #3f5fa2;
     border: none;
     padding: 8px 16px;
     font-size: 16px;
-    color: #d9ffff;
+    color: #96a4e2;
     width: 12%;
     height: 100%;
     cursor: pointer;
@@ -281,13 +282,13 @@ h1 {
 }
 
 .menuPrincipal nav ul li:hover {
-    background-color: #00caf8;
+    background-color: #c8d7e8;
     border-radius: 3px;
 }
 
 .menuPrincipal nav ul li a {
     text-decoration: none;
-    color: #d9ffff;
+    color: #4878af;
 }
 
 button:hover, .cabecalho-inferior form button:hover {
@@ -317,7 +318,7 @@ button:hover, .cabecalho-inferior form button:hover {
 .produtosLista h3 {
     font-weight: bolder;
     margin-bottom: 8px;
-    color: #000037;
+    color: #dfdee6;
 }
 
 .produtosLista img {
@@ -332,6 +333,7 @@ button:hover, .cabecalho-inferior form button:hover {
     overflow: hidden;
     margin-bottom: 8px;
     transition: 3s;
+    color: #dfdee6;
 }
 
 .ativar-hover-produtos-lista:hover, .ativar-hover-section-p:hover {
@@ -339,13 +341,14 @@ button:hover, .cabecalho-inferior form button:hover {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 100;
     background-color: #fff;
+    color: #1b2036;
 }
 
 
 .produtosLista h4 {
     font-size: 20px;
     font-weight: bold;
-    color: #00caf8;;
+    color: #c8d7e8;;
     transition: 1s;
     margin-bottom: 16px;
 }
@@ -353,12 +356,12 @@ button:hover, .cabecalho-inferior form button:hover {
 .preco {
     font-weight: bolder;
     display: inline-block;
-    color: #00caf8;;
+    color: #c8d7e8;
     transition: 3s;
 }
 
 .ativar-hover-preco:hover {
-    color: #027fe9;
+    color: #1b2036;
     background-color: #fff;
     transform: scale(2);
 }
@@ -370,13 +373,13 @@ button:hover, .cabecalho-inferior form button:hover {
     padding: 8px;
     font-size: 16px;
     font-weight: bold;
-    background-color: #027fe9;
+    background-color: #3f5fa2;
     cursor: pointer;
 }
 
 .produtosLista button:hover {
     transform: scale(1.03);
-    background-color: #00caf8;;
+    background-color: #69739e;;
 }
 
 .botaoFlutuante {
@@ -395,7 +398,7 @@ button:hover, .cabecalho-inferior form button:hover {
 
 .botaoFlutuante > button {
     padding: 16px;
-    background-color: #0c2061;
+    background-color: #3f5fa2;
     color: #fff;
     font-size: 20px;
     font-weight: bolder;
@@ -444,7 +447,7 @@ footer > .container {
 
 .rodape-superior h4 {
     margin-bottom: 16px;
-    color: #d3effa;
+    color: #817f97;
     font-size: 20px;
     font-weight: bold;
 }
@@ -452,7 +455,7 @@ footer > .container {
 .rodape-superior h5 {
     font-size: 14px;
     margin-bottom: 6px;
-    color: black;
+    color: #817f97;
 }
 
 #emailLabel {
@@ -468,13 +471,17 @@ footer > .container {
     padding: 4px;
     width: 70%;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #817f97;
+}
+
+#emailLabel {
+    color: #817f97;
 }
 
 .rodape-superior form button {
     padding: 4px;
     width: 28%;
-    background-color: #0c2061;
+    background-color: #3f5fa2;
     border: none;
     color: #fff;
 }
@@ -485,7 +492,7 @@ footer > .container {
 
 .rodape-superior h6 {
     margin-bottom: 16px;
-    color: #d3effa;
+    color: #817f97;
     font-size: 20px;
     font-weight: bold;
 }
@@ -497,7 +504,7 @@ footer > .container {
 
 .rodape-inferior {
     margin-top: 32px;
-    background-color: #173f8b;
+    background-color: #000000;
 }
 
 .rodape-inferior .container > ul{
@@ -516,18 +523,17 @@ footer > .container {
 .rodape-inferior h1 {
     margin: auto;
     height: 100%;
-    color: #000037;
 }
 
 .rodape-inferior h2 {
     font-size: 18px;
     font-weight: bold;
-    color: #d3effa;
+    color: #817f97;
     margin-bottom: 16px;
 }
 
 .rodape-inferior p {
-    color: #84d1df;
+    color: #817f97;
 }
 
 .rodape-inferior img {
@@ -552,7 +558,7 @@ main > section > .container {
 
 main > section {
     padding: 24px 0;
-    color: #182c61;
+    color: #dfdee6;
 }
 
 main > section .container {
