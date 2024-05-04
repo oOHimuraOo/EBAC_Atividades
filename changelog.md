@@ -217,3 +217,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - JQuery-Plugins-Exercicio/JavaScript/desafio.js
 - Jquery-Plugins-Exercicio/HTML/Desafio.html
 
+## [0.1.6] - 08/04/2024
+### Added
+- folder/css-responsivo
+    - folder/css
+        - fonts.css
+        - main.css
+    - folder/javaScript
+        - main.js
+- index.html
+- folder/css-responsivo-exercicio
