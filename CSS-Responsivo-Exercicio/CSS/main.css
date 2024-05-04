@@ -217,6 +217,7 @@ h1 {
 .menuSecundario a img {
     height: 100%;
     margin-right: 4px;
+    max-width: 10px;
 }
 
 .menuSecundario a h3 {
@@ -415,6 +416,7 @@ footer > .container {
 .rodape-superior {
     padding-top: 32px;
 }
+
 .rodape-superior ul {
     display: grid;
     grid-template-columns: repeat(5,19.2%);
@@ -435,6 +437,16 @@ footer > .container {
 
 #metodosPagamento img {
     max-height: 70px;
+    width: 100%;
+}
+
+#news img{
+    max-width: 40px;
+    width: 100%;
+}
+
+#apps img{
+    max-width: 50%;
     width: 100%;
 }
 

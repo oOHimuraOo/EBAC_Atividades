@@ -102,7 +102,10 @@ h1 {
 
 .cabecalho-superior img {
     width: 20%;
+    filter: invert(100%);
 }
+
+
 
 .cabecalho-superior h2 {
     width: 80%;
@@ -218,6 +221,7 @@ h1 {
 .menuSecundario a img {
     height: 100%;
     margin-right: 4px;
+    max-width: 10px;
 }
 
 .menuSecundario a h3 {
@@ -440,6 +444,17 @@ footer > .container {
     max-height: 70px;
     width: 100%;
 }
+
+#news img{
+    max-width: 40px;
+    width: 100%;
+}
+
+#apps img{
+    max-width: 50%;
+    width: 100%;
+}
+
 
 .rodape-superior a {
     text-decoration: none;
