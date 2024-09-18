@@ -85,6 +85,11 @@ body {
 color: rgba(255, 191, 63, 0.3);
 }
 
+.publicos {
+    overflow: hidden;
+    max-height: 416px;
+}
+
 #botao-mensagem {
     background-color: rgb(255, 191, 63);
     color: rgb(33, 35, 34);
@@ -109,6 +114,15 @@ color: rgba(255, 191, 63, 0.3);
     color: #fff;
 }
 
+.img-placeholder-cardapio {
+    min-height: 175px;
+    max-height: 175px;
+    object-fit: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
 textarea {
     resize: none;
 }
@@ -124,4 +138,15 @@ textarea {
 }
 .redes > .texto-corrido-secundario:hover {
     color: rgb(255, 191, 63);
+}
+
+@media (max-width:767px) {
+    .carousel {
+        min-height: 280px;
+        max-height: 280px;
+    }
+
+    .carousel-item img {
+        height: 280px;
+    }
 }
