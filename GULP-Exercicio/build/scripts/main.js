@@ -1,0 +1,1 @@
+function ಠ_ಠ697(ಠ_ಠ698){return ಠ_ಠ698+"!!!"}console.log(ಠ_ಠ697("Exercicio Gulp"));

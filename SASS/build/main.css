@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.roboto-thin {
+  font-family: "Roboto", system-ui;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", system-ui;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", system-ui;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", system-ui;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", system-ui;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", system-ui;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", system-ui;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", system-ui;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", system-ui;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", system-ui;
+  font-weight: 900;
+  font-style: italic;
+}
+
+body {
+  background-color: #c8d6e5;
+}
+
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  padding: 16px 0;
+  background-color: #01a3a4;
+  color: #fff;
+  text-align: center;
+}
+
+.form-container {
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form-container h2 {
+  font-size: 3em;
+  text-align: center;
+}
+.form-container form {
+  width: 100%;
+  max-width: 480px;
+  margin-top: 40px;
+}
+.form-container form input {
+  padding: 8px;
+  margin-bottom: 16px;
+  width: 100%;
+  display: block;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid #01a3a4;
+  max-width: 760px;
+}
+.form-container form input label {
+  font-weight: bold;
+  cursor: pointer;
+}
+.form-container form button {
+  padding: 8px;
+  margin-bottom: 16px;
+  width: 100%;
+  display: block;
+  background-color: #00d2d3;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+.form-container form button:hover {
+  background-color: rgb(0, 133.8625592417, 134.5);
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
