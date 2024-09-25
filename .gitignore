@@ -1,2 +1,7 @@
 node_modules
 lixo
+.parcel-cache
+.vscode
+dist
+dev
+build
